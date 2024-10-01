@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="EventMap - Discover and create events in your community">
+    <title>EventMap - Find Events Near You</title>
+    <style>
+        /* Reset some default styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Overall page styling */
+        body {
+            font-family: 'Roboto', sans-serif;
+/*            background-color: #121212;  */
+            background-color: #ddd;
+            color: #ffffff;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Header styling */
+        header {
+            background-color: #004260; /* Material Blue 600 */
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            font-weight: 500;
+        }
+
+        /* Main content container */
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+            flex: 1;
+            text-align: left;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .container h2 {
+            font-size: 2em;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: #1D1E1E; /* Material Blue 100 */
+        }
+
+        .description {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 40px;
+            color: #000000; /* Light grey text */
+            max-width: 800px;
+        }
+
+        /* App Store button */
+        .app-store-link {
+            background-color: #1E88E5; /* Material Blue 600 */
+            color: white;
+            padding: 15px 40px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 1.1em;
+            transition: background-color 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .app-store-link:hover {
+            background-color: #42A5F5; /* Material Blue 400 */
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #004260;
+            text-align: center;
+            padding: 15px;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+            color: #BBDEFB;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .container h2 {
+                font-size: 1.5em;
+            }
+            .description {
+                font-size: 1em;
+            }
+            .app-store-link {
+                padding: 12px 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>EventMap</h1>
+    </header>
+
+    <div class="container">
+        <h2>Discover Events in Your Community</h2>
+        <p class="description">
+            EventMap is an intuitive and effortless way to find things to do in real time! See events happening near you and post your own events for friends and others to attend.
+            <br><br>
+            Designed for casual socializing, discovering new hobbies, and organizing meetups.
+            <br><br>
+            On a maps-first view, you can see public community events happening near you, or create groups to setup private events only select members can see.
+            <br><br>
+            Whether you’re a club member, event coordinator, or looking to join a community, EventMap has something for you!
+        </p>
+        <a href="#" class="app-store-link">Download on the App Store</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 EventMap LLC. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
